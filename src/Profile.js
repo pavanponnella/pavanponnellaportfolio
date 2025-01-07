@@ -1,17 +1,28 @@
 import React from "react";
 import './Profile.css'; // Import CSS for styling
 
-function Profile() {
+function Portfolio() {
   return (
     <div className="portfolio-container">
+      {/* Contact Section - First Section */}
+      <section id="contact" className="contact">
+        <h1>Contact Me</h1>
+        <p>Let’s connect!</p>
+        <ul className="contact-info">
+          <li>Email: <a href="mailto:ponnellapavan@gmail.com">ponnellapavan@gmail.com</a></li>
+          <li>Phone: <a href="tel:+919381502295">+91 9381502295</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/pavan-ponnella-6ba2362b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li>GitHub: <a href="https://github.com/pavanponnella?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </section>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <img src="profile-picture.jpg" alt="Profile" className="hero-picture" />
+          <img src="photo.png" alt="Profile" className="hero-picture" />
           <h1>Pavan Ponnella</h1>
           <h2>Full-Stack Developer | Java | Spring Boot | Microservices | React.js</h2>
           <p>Building scalable, high-performance applications with clean code and modern technologies.</p>
-          <a href="#contact" className="hero-btn">Contact Me</a>
         </div>
       </section>
 
@@ -73,35 +84,23 @@ function Profile() {
               Developed a scalable e-commerce platform using Microservices architecture, Spring Boot for backend, and React.js for frontend.
               Integrated payment gateways and role-based authentication.
             </p>
-            <a href="https://gitlab.com/ponnellapavan/secondminiproject" target="_blank">View Code</a>
+            <a href="https://gitlab.com/ponnellapavan/secondminiproject" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
           <div className="project-card">
             <h3>Inventory Management System</h3>
             <p>
               Built a microservices-based inventory management system for real-time stock updates, reporting, and analytics using Java and React.
             </p>
-            <a href="https://github.com/your-profile/inventory-system" target="_blank">View Code</a>
+            <a href="https://github.com/your-profile/inventory-system" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
           <div className="project-card">
             <h3>CI/CD Pipeline Setup</h3>
             <p>
               Automated deployment workflows using Jenkins, Docker, and Kubernetes for seamless integration and delivery.
             </p>
-            <a href="https://github.com/your-profile/cicd-pipeline" target="_blank">View Code</a>
+            <a href="https://github.com/your-profile/cicd-pipeline" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
         </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="contact">
-        <h2>Contact Me</h2>
-        <p>Let’s build something amazing together. Reach out to discuss your project or ideas!</p>
-        <ul>
-          <li>Email: ponnellapavan@gmail.com</li>
-          <li>Phone: +91 9381502295</li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/pavan-ponnella-6ba2362b5/" target="_blank">LinkedIn Profile</a></li>
-          <li>GitHub: <a href="https://github.com/pavanponnella?tab=repositories" target="_blank">GitHub Profile</a></li>
-        </ul>
       </section>
 
       {/* Footer Section */}
@@ -112,4 +111,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Portfolio;
