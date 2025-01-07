@@ -1,0 +1,144 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .portfolio-header {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .portfolio-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+  }
+  
+  .portfolio-header p {
+    font-size: 1.2em;
+  }
+  
+  /* About Section */
+  .portfolio-about {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-about h2 {
+    border-bottom: 2px solid #6e8efb;
+    padding-bottom: 10px;
+  }
+  
+  /* Skills Section */
+  .portfolio-skills {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-category h3 {
+    margin-bottom: 10px;
+    color: #6e8efb;
+  }
+  
+  .skill-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-category li {
+    margin: 5px 0;
+  }
+  
+  /* Projects Section */
+  .portfolio-projects {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  .portfolio-contact {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-contact p {
+    margin: 5px 0;
+  }
+  
+  /* Footer Section */
+  .portfolio-footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #6e8efb;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .portfolio-footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .portfolio-footer a:hover {
+    text-decoration: underline;
+  }
+  
