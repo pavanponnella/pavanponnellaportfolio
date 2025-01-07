@@ -91,14 +91,14 @@ function Portfolio() {
             <p>
               Built a microservices-based inventory management system for real-time stock updates, reporting, and analytics using Java and React.
             </p>
-            <a href="https://github.com/your-profile/inventory-system" target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://github.com/pavanponnella/inventory-system" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
           <div className="project-card">
             <h3>CI/CD Pipeline Setup</h3>
             <p>
               Automated deployment workflows using Jenkins, Docker, and Kubernetes for seamless integration and delivery.
             </p>
-            <a href="https://github.com/your-profile/cicd-pipeline" target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href="https://github.com/pavanponnella/cicd-pipeline" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
         </div>
       </section>
