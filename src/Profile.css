@@ -1,4 +1,3 @@
-/* Profile.css */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -9,43 +8,43 @@ body {
 }
 
 .portfolio-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .contact {
   background: #ffffff;
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .contact h1 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #6e8efb;
   margin-bottom: 5px;
 }
 
 .contact p {
-  font-size: 1em;
-  margin-bottom: 10px;
+  font-size: 0.9em;
+  margin-bottom: 8px;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
-  font-size: 0.9em;
+  gap: 10px;
+  font-size: 0.85em;
   flex-wrap: wrap;
 }
 
 .contact-info li {
   margin: 0;
   text-align: center;
-  width: 22%; /* Adjust width to fit content in a single line */
+  width: 22%;
 }
 
 .contact-info li a {
@@ -63,42 +62,63 @@ body {
 }
 
 .hero-picture {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid white;
   margin-bottom: 10px;
 }
 
 .hero h1, .hero h2 {
-  margin: 10px 0;
+  margin: 8px 0;
+  font-size: 1.3em;
 }
 
 .about, .skills, .projects {
   margin-top: 20px;
-  padding: 20px;
+  padding: 15px;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
 }
 
 .footer {
   text-align: center;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 12px;
+  margin-top: 15px;
   background: #6e8efb;
   color: white;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info li {
+    width: auto;
+    margin-bottom: 8px;
+  }
+
+  .hero h1 {
+    font-size: 1.4em;
+  }
+
+  .hero h2 {
+    font-size: 1em;
+  }
 }
