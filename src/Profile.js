@@ -4,7 +4,7 @@ import './Profile.css'; // Import CSS for styling
 function Portfolio() {
   return (
     <div className="portfolio-container">
-      {/* Contact Section - First Section */}
+      {/* Contact Section */}
       <section id="contact" className="contact">
         <h1>Contact Me</h1>
         <p>Let’s connect!</p>
@@ -69,6 +69,7 @@ function Portfolio() {
               <li>CI/CD (Jenkins)</li>
               <li>Git & GitHub</li>
               <li>Postman</li>
+              <li>SonarQube</li>
             </ul>
           </div>
         </div>
@@ -96,7 +97,7 @@ function Portfolio() {
           <div className="project-card">
             <h3>CI/CD Pipeline Setup</h3>
             <p>
-              Automated deployment workflows using Jenkins, Docker, and Kubernetes for seamless integration and delivery.
+              Automated deployment workflows using Jenkins, Docker, Kubernetes, and SonarQube for code quality analysis and seamless delivery.
             </p>
             <a href="https://github.com/pavanponnella/cicd-pipeline" target="_blank" rel="noopener noreferrer">View Code</a>
           </div>
